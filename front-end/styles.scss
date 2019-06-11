@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 50%;
+}
+
+.container {
+  background-image: transparent;
+  position: sticky;
+}
+
+.header {
+  height: 98vh;
+  background-image: linear-gradient(rgba(243, 104, 224,0.5), rgba(253, 121, 168,0.5)), url("https://www.thenational.ae/image/policy:1.719801:1523202284/lf09-APR-fitness.jpg?f=16x9&w=1200&$p$f$w=5dce02a");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#slogan {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 24%;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+}
+
+.boxy {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0);
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.45em 0.95em;
+  margin: 0.45em;
+  border-style: solid;
+  border-width: 1px;
+  transition: all 0.2s ease;
+  border-image: linear-gradient(155deg, #fff 0%, #fff 100%) 1 round;
+  background: linear-gradient(155deg, #fff 0%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  border-width: 2px;
+  position: relative;
+  margin-top: 170px !important;
+  margin-left: 580px;
+
+  @media (max-width: 600px) {
+    left: 13.6% !important;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+#hjhjhj {
+    text-align: center;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+}
+.jfiewj {
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 2%;
+    color: #777;
+}
+#jawkgl {
+    padding-right: 50px;
+    position: relative;
+    bottom: 5%;
+    text-align: center;
+    justify-content: center;
+}
+#adju {
+    width: 100%;
+    font-size: 40px;
+    background: -webkit-linear-gradient(rgba(224, 86, 253, 0.6), rgba(253, 121, 168, 0.98));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #fd79a8;
+    border-width: 2px;
+    border-radius: 100%;
+    text-align: center;
+    width: 65px;
+    height: 64px;
+    padding-top: 0.25em;
+    padding-bottom: 0.2em;
+    color: #fd79a8;
+}
+#adjudif {
+    width: 100%;
+    font-size: 49px;
+    background: -webkit-linear-gradient(rgba(224, 86, 253, 0.6), rgba(253, 121, 168, 0.98));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #fd79a8;
+    border-width: 2px;
+    border-radius: 100%;
+    text-align: center;
+    width: 65px;
+    height: 64px;
+    padding-top: 0.1em;
+    padding-bottom: 0.35em;
+    color: #fd79a8;
+}
+#adjudiff {
+    width: 100%;
+    font-size: 65px;
+    background: -webkit-linear-gradient(rgba(224, 86, 253, 0.6), rgba(253, 121, 168, 0.98));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #fd79a8;
+    border-width: 2px;
+    border-radius: 100%;
+    width: 65px;
+    height: 64px;
+    text-align: center;
+    justify-content: center;
+    color: #fd79a8;
+}
+.media-body {
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.media {
+  padding-left: 16px;
+  position: relative;
+  top: 17%;
+}
+.img_grabber {
+  width: 120%;
+  position: relative;
+  right: 23%;
+  top: 15%;
+}
+
+#fisrt {
+  padding-top: 60px;
+}
+.fact-area {
+    height: 30vh;
+    width: 100%;
+    display: inline-block;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-image: url(https://cdn.pixabay.com/photo/2019/05/04/03/52/dalat-4177363_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-respeat: no-repeat;
+    background-attachment: fixed;
+}
+#showit {
+    background-color: transparent;
+    position: relative;
+    top: 10.2%;
+}
+.fact-box {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.single-fact {
+    text-align: center;
+    margin: 45px 0;
+    padding: 8px 16px;
+    border-right: 1px solid #ddd;
+
+    h2 {
+      font-family: Poppins, sans-serif;
+      font-weight: 600;
+    }
+    p{
+      font-family: Poppins, sans-serif;
+      font-weight: 600;
+    }
+}
+#nums {
+  text-align: center;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  padding-bottom: 10px;
+
+  &:after {
+    content: "";
+    width: 300px;
+    position: absolute;
+    margin: 0 auto;
+    height: 5px;
+    background: #fd79a8;
+    left: 0;
+    right: 0;
+    bottom: -831px;
+}
+  }
+
+#num_sec {
+  padding-top: 100px;
+}

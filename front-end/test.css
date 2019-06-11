@@ -1,0 +1,61 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%; }
+
+.logo {
+  width: 50%; }
+
+#pic {
+  height: 80vh;
+  background-image: linear-gradient(rgba(243, 104, 224, 0.5), rgba(253, 121, 168, 0.5)), url("https://static.psycom.net/wp-content/uploads/2016/12/kids-and-adhd-58545454_M.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: 0; }
+
+.boxy {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0);
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.45em 0.95em;
+  margin: 0.45em;
+  border-style: solid;
+  border-width: 1px;
+  transition: all 0.2s ease;
+  border-image: linear-gradient(155deg, #fd79a8 0%, #fd79a8 100%) 1 round;
+  background: linear-gradient(155deg, #fd79a8 0%, #fd79a8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  border-width: 2px;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  margin-left: 250px; }
+  .boxy:hover {
+    text-decoration: none;
+    color: #fd79a8; }
+
+.media-body {
+  position: relative;
+  top: 25%;
+  right: 2%; }
+
+#fuckyeah {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  padding-bottom: 30px; }
+
+#footer_text {
+  text-align: center;
+  justify-content: center; }
+
+/*# sourceMappingURL=test.css.map */
